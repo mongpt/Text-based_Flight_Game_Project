@@ -26,8 +26,6 @@ while userChoice == "1" or userChoice == "2" or userChoice == "3" or userChoice 
         showDestinationTable()
         # ask to select destination
         destAirport = int(input("Select an airport by its number from the above table: "))
-        while destAirport < 10 or destAirport > 40:  # ask again if player selects wrong value
-            destAirport = int(input("Please select a distance number corresponding to an airport name: "))
         # generate a random number from selected airport
         flightNumber = str(generateNumber(destAirport))
         #print("flight number is: ", flightNumber)
