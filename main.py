@@ -33,7 +33,7 @@ while userChoice == "1" or userChoice == "2" or userChoice == "3" or userChoice 
         print("Taking off...")
         print("Now you can guess the randomly generated number, which is between 1 and the number of distance to your destination airport.\n" 
               "If the game responses ‘’turn right’, you have to guess higher number.\n"
-              "If the game responses ‘’turn left, you have to guess lower number.\n" 
+              "If the game responses ‘’turn left, you have to guess lower number.\n") 
         playerTry = input("Flying: ")
         moves = 1
         print(tabulate([[f"Your moves: {moves}"]], tablefmt="outline"))
