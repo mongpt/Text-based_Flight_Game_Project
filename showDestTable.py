@@ -22,7 +22,7 @@ def showDestinationTable():
                      f"and country.name = '{country_pick}' and (airport.type = 'medium_airport' or airport.type = 'large_airport');")
 
     result = myCursor.fetchall()
-    print(tabulate(result, headers=["Distance(km)", "Airport Name", "Country"], tablefmt="double_outline"))
+    print(tabulate(result, headers=["Airport Code", "Airport Name", "Country"], tablefmt="double_outline"))
 
 
 
