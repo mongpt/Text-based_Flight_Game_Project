@@ -36,9 +36,9 @@ while userChoice == "1" or userChoice == "2" or userChoice == "3" or userChoice 
         playerTry = input(f"Input code # {moves}: ")
         #moves = 1
         #print(tabulate([[f"Your moves: {moves}"]], tablefmt="outline"))
-        while playerTry != flightNumber and moves < 6:
+        while playerTry != flightNumber and moves < 5:
             # compare the last input number to flightNumber to give player a suggestion
-            print(f"Incorrect code. You have only {6 - moves} tries left")
+            print(f"Incorrect code. You have only {5 - moves} tries left")
             if int(playerTry) < int(flightNumber):
                 playerTry = input("Try bigger code: ")
             else:
