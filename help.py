@@ -1,7 +1,7 @@
 def helpMenu():
     from tabulate import tabulate
     print( "\nHOW TO PLAY" )
-    print( tabulate( [["GOAL: Find deactivation code to save your flight and passengers!"],
+    print( tabulate( [["GOAL: Find the deactivation code of a timebomb to save your passengers!"],
     [" Step 1: Choose a country and an airport where you want to fly to!"],
-    [" Step 2: Find a deactivation code of the timebomb."],
-    [" Step 3: If you find the correct deactivation code within 5 attempts, you can save people's life!"]], tablefmt = "double_outline"))
+    [" Step 2: Find the deactivation code of a timebomb with the given information."],
+    [" Step 3: If you find the correct deactivation code within 5 attempts, you can save the people's lives!"]], tablefmt = "double_outline"))
