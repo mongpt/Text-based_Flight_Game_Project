@@ -14,4 +14,4 @@ def top5Players():
     myCursor.execute("select row_number() over(order by points desc),name,distance,moves,points from users limit 5;")
     result = myCursor.fetchall()
     print("\nTop 5 players:")
-    print(tabulate(result, headers=["Rank", "Name", "Distance(km)", "Moves", "Points"], tablefmt="double_outline"))
+    print(tabulate(result, headers=["Rank", "Name", "Airport Code", "Attempts", "Points"], tablefmt="double_outline"))
