@@ -36,7 +36,7 @@ while userChoice == "1" or userChoice == "2" or userChoice == "3" or userChoice 
         "An unknown person told you he has set a timebomb in your airplane.\n"
         "Only with the correct deactivation code of the bomb, you can save people's lives. \n"
         "But you have only 5 attempts to try...! \n") 
-        print("<Hint: The deactivation code of a bomb is from 1 to the number of your destination airport code>")
+        print(f"<Hint: The deactivation code of a bomb is in between 1 and {destAirport}>")
         moves = 1
         playerTry = input(f"Input code # {moves}: ")
         #moves = 1
