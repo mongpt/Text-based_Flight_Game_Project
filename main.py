@@ -30,13 +30,13 @@ while userChoice == "1" or userChoice == "2" or userChoice == "3" or userChoice 
         flightNumber = str(generateNumber(destAirport))
         #print("flight number is: ", flightNumber)
         # Flying: loop until the player input the same flight number
-        print("Taking off...)
+        print("Taking off...")
         print("You just departed from JFK airport. \n"
         "All of a sudden you got a call from an unknown number. \n"
         "An unknown person told you he has set a timebomb in your airplane.\n"
         "Only with the correct deactivation code of the bomb, you can save people's lives. \n"
         "But you have only 5 attempts to try...! \n") 
-        print("<Hint: The deactivation code of a bomb is from 1 to the number of your destination airport code>"
+        print("<Hint: The deactivation code of a bomb is from 1 to the number of your destination airport code>")
         moves = 1
         playerTry = input(f"Input code # {moves}: ")
         #moves = 1
